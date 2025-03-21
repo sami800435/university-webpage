@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="University Logo" height="150"width="100">
+    
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="admin.html">About</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="academic.html">Academic</a></li>
+                <li><a href="login.html">Student Login</a></li>
+                
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="payment-staus.html">Payment</a></li>
+            
+                <li><a href="dashboard.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="parallax">
+        <div class="parallax-text">
+            <h1>Welcome to Our University</h1>
+            <p>Excellence in Education,Research and Innovation</p>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="about-contant">
+            <h2 class="fade-in-text">About Our University</h2>
+            <p>Our University has been a leader in education for over 46 years,fostering innovation,academic excellence 
+                and global engagement.
+            </p>
+            <p> Our mission is to provide top-tier education and research opportunities for students from all over
+                the world.
+            </p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>1979 - University Established</h3>
+                <p> Our University was founded in 1979 with the vision of providing quality education to all.</p>
+            </div>
+            <div class="timeline-item">
+                <h3> 2025 - session is stuck</h3>
+                <p> Since the establishment of our university, sessions have been involved.</p>
+            </div>
+        </div>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="campus.jpg " alt="campus picture 1" height="750"width="500">
+                <img src="campus 2.jpg" alt="campus picture 2">
+                <img src="campus 3.jpg"alt="campus picture 3">
+                <img src="campus 4 .jpg" alt="campus picture 4">
+            <img src="campus 5.jpg"alt="campus picture 5 ">
+            </div>
+        </div>
+    </section>
+    
+    <div id="nav-placeholder"></div>
+    
+    <script>
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("nav-placeholder").innerHTML = data;
+            });
+    </script>
+
+<footer>
+    <p>© 2025 samia. All Rights Reserved.</p>
+</footer>
+
+
+</body>
+</html>

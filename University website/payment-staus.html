@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="nav-placeholder"></div>
+
+    <h2>Pay University Fees Online</h2>
+    <form action="process_payment.php" method="POST">
+        <label>Student ID:</label>
+        <input type="text" name="student_id" required><br>
+
+        <label>Amount:</label>
+        <input type="number" name="amount" required><br>
+
+        <label>Payment Method:</label>
+        <select name="payment_method">
+            <option value="bkash">Bkash</option>
+            <option value="nagad">Nagad</option>
+            <option value="rocket">Rocket</option>
+        </select><br>
+
+        <button type="submit">Pay Now</button>
+    </form>
+
+    <script>
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("nav-placeholder").innerHTML = data;
+            });
+    </script>
+
+</body>
+
+</html>

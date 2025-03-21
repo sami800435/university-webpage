@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Programs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div id="nav-placeholder"></div>
+
+    <section>
+        <h1>Academic Programs</h1>
+        <p>Explore our diverse range of academic programs.</p>
+
+        <table>
+            <tr>
+                <th>Program Name</th>
+                <th>Duration</th>
+                <th>Credits</th>
+            </tr>
+            <tr>
+                <td>B.Sc in Computer Science</td>
+                <td>4 Years</td>
+                <td>160</td>
+            </tr>
+            <tr>
+                <td>BBA in Business Administration</td>
+                <td>4 Years</td>
+                <td>126</td>
+            </tr>
+            <tr>
+                <td>LLB (Bachelor of Law)</td>
+                <td>4 Years</td>
+                <td>130</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Apply for a Program</h2>
+        <form id="academic-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="program">Select Program:</label>
+            <select id="program">
+                <option value="CSE">B.Sc in Computer Science</option>
+                <option value="BBA">BBA in Business Administration</option>
+                <option value="LLB">LLB (Bachelor of Law)</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    
+</body>
+
+</html>

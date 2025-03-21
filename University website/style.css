@@ -1,0 +1,412 @@
+body{
+    font-family: "Arial",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header.logo img{
+    height: 50px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.parallax{
+    background-image: url('parallax.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.parallax-text h1{
+    font-family: 50px;
+    margin-bottom: 20px;
+}
+.parallax-text p{
+    font-size: 20px;
+}
+
+.about-us{
+    padding: 40px;
+}
+
+.fade-in-text{
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100% {opacity: 1;}
+}
+.timeline{
+    margin-top: 50px;
+}
+
+.timeline-item{
+    margin-bottom: 40px;
+    padding: 20px;
+    border-left: 4px solid #4CAF50;
+    background-color: #f9f9f9;
+}
+
+.timeline-item h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.timeline-item p{
+    font-size: 18px;
+}
+
+.carousel{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+
+.carousel-images{
+    display: flex;
+    animation: slide 12s infinite;
+}
+.carousel-images img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+@keyframes slide{
+    0% {transform: translateX(0);}
+    33.33% {transform: translateX(-100%);}
+    66.66% {transform: translateX(-200%);}
+    100%{transform: translateX(0);}
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?university,library') no-repeat center center/cover;
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #ffd700;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.campus-map {
+    padding: 40px 20px;
+    text-align: center;
+    background: white;
+}
+
+
+.login {
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #002147;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004aad;
+}
+footer {
+    background: #002147;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.payment-section {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.payment-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payment-section input, .payment-section select, .payment-section button {
+    padding: 10px;
+    font-size: 16px;
+}
+body{
+    font-family: Arial,  sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+section{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+
+
+.faculty{
+
+    background: wheat;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+.faculty-list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.faculty-member{
+
+background:#e3e3e3;
+padding: 10px
+border-radius: 5px;
+
+
+
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+
+form {
+    width: 50%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+
+
+
+.contact-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-info, .contact-form {
+    width: 40%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
+}
+
+
+
+
+
+
+
+
+
